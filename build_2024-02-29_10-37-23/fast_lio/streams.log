@@ -1,0 +1,84 @@
+[0.242s] Invoking command in '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio': /usr/bin/cmake /home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio
+[0.309s] Current CPU archtecture: x86_64
+[0.405s] Processer number:  6
+[0.405s] core for MP: 3
+[0.425s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.514s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.905s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.907s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.941s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.227s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[1.322s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.503s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.655s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.832s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.884s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[2.085s] -- Found pcl_ros: 2.4.1 (/usr/local/share/pcl_ros/cmake)
+[3.101s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[3.976s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.063s] -- The imported target "vtkParseOGLExt" references the file
+[4.063s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.063s] but this file does not exist.  Possible reasons include:
+[4.063s] * The file was deleted, renamed, or moved to another location.
+[4.063s] * An install or uninstall procedure did not complete successfully.
+[4.063s] * The installation package was faulty and contained
+[4.063s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.063s] but not all the files it references.
+[4.063s] 
+[4.064s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.064s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.064s] but this file does not exist.  Possible reasons include:
+[4.064s] * The file was deleted, renamed, or moved to another location.
+[4.064s] * An install or uninstall procedure did not complete successfully.
+[4.064s] * The installation package was faulty and contained
+[4.064s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.064s] but not all the files it references.
+[4.064s] 
+[4.065s] -- The imported target "vtk" references the file
+[4.065s]    "/usr/bin/vtk"
+[4.065s] but this file does not exist.  Possible reasons include:
+[4.065s] * The file was deleted, renamed, or moved to another location.
+[4.065s] * An install or uninstall procedure did not complete successfully.
+[4.065s] * The installation package was faulty and contained
+[4.065s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.065s] but not all the files it references.
+[4.065s] 
+[4.065s] -- The imported target "pvtk" references the file
+[4.066s]    "/usr/bin/pvtk"
+[4.066s] but this file does not exist.  Possible reasons include:
+[4.066s] * The file was deleted, renamed, or moved to another location.
+[4.066s] * An install or uninstall procedure did not complete successfully.
+[4.066s] * The installation package was faulty and contained
+[4.066s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.066s] but not all the files it references.
+[4.066s] 
+[4.088s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.095s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.114s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.122s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.135s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[4.142s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.204s] CMake Error at CMakeLists.txt:60 (find_package):
+[4.204s]   By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this
+[4.205s]   project has asked CMake to find a package configuration file provided by
+[4.205s]   "livox_ros_driver2", but CMake did not find one.
+[4.205s] 
+[4.205s]   Could not find a package configuration file provided by "livox_ros_driver2"
+[4.205s]   with any of the following names:
+[4.205s] 
+[4.205s]     livox_ros_driver2Config.cmake
+[4.205s]     livox_ros_driver2-config.cmake
+[4.205s] 
+[4.205s]   Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or
+[4.205s]   set "livox_ros_driver2_DIR" to a directory containing one of the above
+[4.205s]   files.  If "livox_ros_driver2" provides a separate development package or
+[4.205s]   SDK, be sure it has been installed.
+[4.205s] 
+[4.205s] 
+[4.207s] -- Configuring incomplete, errors occurred!
+[4.207s] See also "/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio/CMakeFiles/CMakeOutput.log".
+[4.219s] Invoked command in '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio' returned '1': /usr/bin/cmake /home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio

@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.001262] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.001304] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.101178] (-) TimerEvent: {}
+[0.161282] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.162762] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio'], 'cwd': '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zhangyuanwei'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/zhangyuanwei'), ('OLDPWD', '/home/zhangyuanwei/ws1_livox/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1555'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b96429ae76068dd44681a13165dfeaa7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'zhangyuanwei'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:54166'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhangyuanwei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/zhangyuanwei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/zhangyuanwei-virtual-machine:@/tmp/.ICE-unix/1799,unix/zhangyuanwei-virtual-machine:/tmp/.ICE-unix/1799'), ('INVOCATION_ID', 'b02fab3b9a0f4a469427092159570599'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9af75387_d1b5_46a8_9800_37a2447ed952'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b96429ae76068dd44681a13165dfeaa7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.185678] (fast_lio) StderrLine: {'line': b'Current CPU archtecture: x86_64\n'}
+[0.188850] (fast_lio) StderrLine: {'line': b'Processer number:  6\n'}
+[0.188977] (fast_lio) StderrLine: {'line': b'core for MP: 3\n'}
+[0.196991] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.202013] (-) TimerEvent: {}
+[0.223999] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.290964] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.302576] (-) TimerEvent: {}
+[0.337399] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.341583] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.402737] (-) TimerEvent: {}
+[0.487080] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.503612] (-) TimerEvent: {}
+[0.574195] (fast_lio) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.576479] (fast_lio) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.604308] (-) TimerEvent: {}
+[0.610884] (fast_lio) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.705493] (-) TimerEvent: {}
+[0.806390] (-) TimerEvent: {}
+[0.890572] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)\n'}
+[0.907187] (-) TimerEvent: {}
+[0.983047] (fast_lio) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.007587] (-) TimerEvent: {}
+[1.044733] (fast_lio) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[1.108534] (-) TimerEvent: {}
+[1.186189] (fast_lio) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[1.209463] (-) TimerEvent: {}
+[1.309885] (-) TimerEvent: {}
+[1.325895] (fast_lio) StdoutLine: {'line': b'-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)\n'}
+[1.339093] (fast_lio) StdoutLine: {'line': b'-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)\n'}
+[1.410718] (-) TimerEvent: {}
+[1.467327] (fast_lio) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.1 (/usr/local/share/pcl_ros/cmake)\n'}
+[1.511498] (-) TimerEvent: {}
+[1.612424] (-) TimerEvent: {}
+[1.713399] (-) TimerEvent: {}
+[1.814091] (-) TimerEvent: {}
+[1.914439] (-) TimerEvent: {}
+[2.015339] (-) TimerEvent: {}
+[2.116493] (-) TimerEvent: {}
+[2.217059] (-) TimerEvent: {}
+[2.317660] (-) TimerEvent: {}
+[2.356415] (fast_lio) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[2.418129] (-) TimerEvent: {}
+[2.519444] (-) TimerEvent: {}
+[2.620373] (-) TimerEvent: {}
+[2.721080] (-) TimerEvent: {}
+[2.821574] (-) TimerEvent: {}
+[2.921901] (-) TimerEvent: {}
+[2.956770] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[3.022183] (-) TimerEvent: {}
+[3.051124] (fast_lio) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[3.051291] (fast_lio) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[3.051356] (fast_lio) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.051414] (fast_lio) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.051501] (fast_lio) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.051557] (fast_lio) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.051611] (fast_lio) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.051664] (fast_lio) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.051718] (fast_lio) StdoutLine: {'line': b'\n'}
+[3.052157] (fast_lio) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[3.052260] (fast_lio) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[3.052325] (fast_lio) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.052383] (fast_lio) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.052439] (fast_lio) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.052492] (fast_lio) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.052576] (fast_lio) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.052632] (fast_lio) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.052686] (fast_lio) StdoutLine: {'line': b'\n'}
+[3.052885] (fast_lio) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[3.052982] (fast_lio) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[3.053285] (fast_lio) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.053377] (fast_lio) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.053439] (fast_lio) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.053495] (fast_lio) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.053568] (fast_lio) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.053637] (fast_lio) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.053692] (fast_lio) StdoutLine: {'line': b'\n'}
+[3.053746] (fast_lio) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[3.053800] (fast_lio) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[3.053853] (fast_lio) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.053907] (fast_lio) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.053991] (fast_lio) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.054045] (fast_lio) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.054098] (fast_lio) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.054151] (fast_lio) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.054203] (fast_lio) StdoutLine: {'line': b'\n'}
+[3.075607] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.082850] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.102492] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.108967] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.123045] (fast_lio) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[3.123214] (-) TimerEvent: {}
+[3.130102] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.191557] (fast_lio) StderrLine: {'line': b'CMake Error at CMakeLists.txt:60 (find_package):\n'}
+[3.191725] (fast_lio) StderrLine: {'line': b'  By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.191789] (fast_lio) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.191846] (fast_lio) StderrLine: {'line': b'  "livox_ros_driver2", but CMake did not find one.\n'}
+[3.191901] (fast_lio) StderrLine: {'line': b'\n'}
+[3.191953] (fast_lio) StderrLine: {'line': b'  Could not find a package configuration file provided by "livox_ros_driver2"\n'}
+[3.192007] (fast_lio) StderrLine: {'line': b'  with any of the following names:\n'}
+[3.192059] (fast_lio) StderrLine: {'line': b'\n'}
+[3.192110] (fast_lio) StderrLine: {'line': b'    livox_ros_driver2Config.cmake\n'}
+[3.192163] (fast_lio) StderrLine: {'line': b'    livox_ros_driver2-config.cmake\n'}
+[3.192215] (fast_lio) StderrLine: {'line': b'\n'}
+[3.192267] (fast_lio) StderrLine: {'line': b'  Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or\n'}
+[3.192332] (fast_lio) StderrLine: {'line': b'  set "livox_ros_driver2_DIR" to a directory containing one of the above\n'}
+[3.192386] (fast_lio) StderrLine: {'line': b'  files.  If "livox_ros_driver2" provides a separate development package or\n'}
+[3.192438] (fast_lio) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[3.192489] (fast_lio) StderrLine: {'line': b'\n'}
+[3.192539] (fast_lio) StderrLine: {'line': b'\n'}
+[3.194479] (fast_lio) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.194586] (fast_lio) StdoutLine: {'line': b'See also "/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio/CMakeFiles/CMakeOutput.log".\n'}
+[3.205853] (fast_lio) CommandEnded: {'returncode': 1}
+[3.224774] (-) TimerEvent: {}
+[3.333247] (-) TimerEvent: {}
+[3.339752] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 1}
+[3.350720] (-) EventReactorShutdown: {}
